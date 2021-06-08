@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:cardBackgroundColor="#fff"
+    app:cardCornerRadius="3dp"
+    app:cardElevation="3dp"
+    android:padding="5dp"
+    app:cardUseCompatPadding="true"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Name:"/>
+
+    <TextView
+        android:id="@+id/fname"
+        android:layout_width="142dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/imgview"
+        android:layout_marginEnd="31dp"
+        android:text="Burger"
+        android:textSize="20sp" />
+
+
+        <ImageView
+            android:id="@+id/imgview"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:adjustViewBounds="true"
+            android:layout_alignStart="@+id/fdes"
+            app:srcCompat="@drawable/a" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Description:"/>
+    <TextView
+        android:id="@+id/fdes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Extra Butter Extra Chise"
+        android:textSize="20sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Price:"/>
+        <TextView
+            android:id="@+id/fprice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignEnd="@+id/fdes"
+            android:text="30$"
+            android:textSize="25sp"
+            tools:ignore="UnknownId" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Restaurant Name:"/>
+
+        <TextView
+            android:id="@+id/fres"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Name Of Resturent"
+            android:textSize="22sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:text="Food ID:"/>
+
+        <TextView
+            android:id="@+id/fid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/fname"
+            android:text="Order Id"
+            android:textSize="20sp" />
+
+
+
+</LinearLayout>
+
+</android.support.v7.widget.CardView>

@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Food Lover Client</string>
+    <string name="start">Start</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="lemail">Email</string>
+    <string name="pass">Password</string>
+    <string name="namei">Name</string>
+    <string name="age">Age</string>
+    <string name="username">Username</string>
+    <string name="remail">Email</string>
+    <string name="rpass">Password</string>
+    <string name="regi">Register</string>
+    <string name="fitem">Food Item</string>
+    <string name="offers">Offers</string>
+    <string name="Massage">Massage</string>
+    <string name="title_activity_category">category</string>
+    <string name="fooditem">Food Item</string>
+    <string name="rating">Rating</string>
+    <string name="conpass">Confirm Password</string>
+    <string name="order">Order</string>
+    <string name="name">Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="food_id">Food ID</string>
+    <string name="address">Address</string>
+    <string name="oreder">Order</string>
+    <string name="namecl">Name</string>
+    <string name="phone_numbercl">Phone Number</string>
+    <string name="food_idcl">Food ID</string>
+    <string name="addresscl">Address</string>
+    <string name="quantitycl">Quantity</string>
+    <string name="ordercl">Order</string>
+    <string name="opennev">Open</string>
+    <string name="closenev">Close</string>
+
+</resources>
